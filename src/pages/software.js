@@ -25,6 +25,7 @@ const Software = () => {
     <img src={require('../images/mrwhite.png')} alt="mrwhite" style={{ width: '400px', height: 'auto' }}/>
                         <div style={{ textAlign: 'left' }}>
                                 <ul>
+                                    <li>Use !help for command list</li>
                                     <li>Created a Revue Starlight Discord bot that has multiple fun commands that involve editing images according to user input, responding to user messages, and more!</li>
                                     <li>How does it work? It parses JSONs from API calls, edits images/GIFs using PIL, has facial recognition using OpenCV, and runs using Google Cloud!</li>
                                     <li>Tools used: Python, VSCode, Git/Github, Discord/Tenor/Karthuria API, OpenCV, PIL, and Google Cloud Compute Engine VM!</li>
@@ -102,6 +103,13 @@ const Software = () => {
                 <div style={{ display: 'flex' }}>
                     <div style={{ flex: 1, marginRight: 'auto', paddingLeft: '2.5rem', paddingRight: '2.5rem', textAlign: 'center' }}>
                     <h3>Data Prioritization Manager Application for NCSU Laboratory of Analytical Sciences</h3>
+                    <h3><a href="https://www.linkedin.com/in/dion-fredrick-ybanez-943429274/details/projects/1907814961/multiple-media-viewer/?profileId=ACoAAEL7lAMBnj6hhXgMMGIz-pz67DLj9mA7EQQ&treasuryMediaId=1635527986995" target="_blank" rel="noopener noreferrer" style={{ color: '#00bfff' }}>
+                        Final Project Report
+                    </a></h3>
+                    <h3><a href="https://www.linkedin.com/in/dion-fredrick-ybanez-943429274/details/projects/1907814961/multiple-media-viewer/?profileId=ACoAAEL7lAMBnj6hhXgMMGIz-pz67DLj9mA7EQQ&treasuryMediaId=1635527991720" target="_blank" rel="noopener noreferrer" style={{ color: '#00bfff' }}>
+                        User Guide
+                    </a></h3>
+                    <img src={require('../images/las.png')} alt="epa" style={{ width: '400px', height: 'auto' }}/>
                         <div style={{ textAlign: 'left' }}>
                                 <ul>
                                     <li>Primarily developed & tested the MVC Django backend while also assisting in React frontend, as well as contributing to design and presentations</li>
@@ -113,6 +121,10 @@ const Software = () => {
                     </div>
                     <div style={{ flex: 1, marginRight: 'auto', paddingLeft: '2.5rem', paddingRight: '2.5rem', textAlign: 'center' }}>
                     <h3>Frontend UI Design for EPA SeqaPASS</h3>
+                    <h3><a href="https://www.figma.com/file/pDWdgQBnhjLgh3qvRxmqUX/SeqAPASS?type=design" target="_blank" rel="noopener noreferrer" style={{ color: '#00bfff' }}>
+                        Working Figma Mockup
+                    </a></h3>
+                    <img src={require('../images/epa.png')} alt="epa" style={{ width: '400px', height: 'auto' }}/>
                         <div style={{ textAlign: 'left' }}>
                                 <ul>
                                     <li>Created an improved practical frontend UI design for a sponsor's existing application, with a working mockup in Figma, and multiple design documents such as mental models & user tasks/actions</li>

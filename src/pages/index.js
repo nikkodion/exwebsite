@@ -112,6 +112,7 @@ const Home = () => {
     <img src={require('../images/mrwhite.png')} alt="mrwhite" style={{ width: '400px', height: 'auto' }}/>
                         <div style={{ textAlign: 'left' }}>
                                 <ul>
+                                    <li>Use !help for command list</li>
                                     <li>Created a Revue Starlight Discord bot that has multiple fun commands that involve editing images according to user input, responding to user messages, and more!</li>
                                     <li>How does it work? It parses JSONs from API calls, edits images/GIFs using PIL, has facial recognition using OpenCV, and runs using Google Cloud!</li>
                                     <li>Tools used: Python, VSCode, Git/Github, Discord/Tenor/Karthuria API, OpenCV, PIL, and Google Cloud Compute Engine VM!</li>
