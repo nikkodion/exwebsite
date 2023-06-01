@@ -1,0 +1,44 @@
+
+  
+  .color-container {
+    position: relative;
+    color: white;
+    text-shadow: 3px 3px 3px black, -3px -3px 3px black, -3px 3px 3px black, 3px -3px 3px black;
+    
+  }
+
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 767px) {
+    .background-image {
+      background-attachment: fixed;
+      background-position: top;
+    }
+  }
+
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+  
+  
+  
