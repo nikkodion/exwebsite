@@ -123,8 +123,20 @@ const Software = () => {
                         </div>
                      </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <h3>...and more</h3>
+                <div style={{ textAlign: 'center', justifyContent: 'center' }}>
+                    <h3>Jotaro's Job at 7-Eleven THE GAME!!!</h3>
+                    <h3><a href="https://drive.google.com/file/d/1gqq9lmJN3euj_WoCcMIZx11FqPvBqczN/view" target="_blank" rel="noopener noreferrer" style={{ color: '#00bfff' }}>
+                        Download
+                    </a></h3>
+                    <img src={require('../images/7eleven.png')} alt="7eleven" style={{ width: '400px', height: 'auto' }}/>
+                        <div style={{ textAlign: 'center' }}>
+                                <ul>
+                                    <li>Created a game with custom scripts in JavaScript and animations for attacks such as time-stop in RPG Maker MV as an April Fools joke</li>
+                                    <li>Wrote the entire "script" in which you go on a journey from 7-Eleven</li>
+                                    <li>It's actually really old I made this in like high school and never finished the story but it's functionally there</li>
+                                </ul>
+                        </div>
+                    <h3>Of course... This site that you're on right now is deployed with Heroku & uses JavaScript with React!</h3>
                 </div>
                 </motion.div> 
         </div>
