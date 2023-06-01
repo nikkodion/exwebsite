@@ -131,7 +131,7 @@ const Home = () => {
                                 </ul>
                         </div>
                         <h3>
-                            And of course... This site that you're on right now uses JavaScript with React, which uses JSX and CSS!
+                            And of course... This site that you're on right now is deployed with Heroku & uses JavaScript with React!
                         </h3>
                     </div>
                 </div>
